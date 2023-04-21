@@ -6,6 +6,7 @@ public class Tv {
     private String code;
     private String screenSize;
     private String manufacture;
+    protected static int count = 0;
 
     public Tv(){
         price = "0.0";
@@ -13,6 +14,7 @@ public class Tv {
         code = "";
         screenSize = "";
         manufacture = "";
+        count++;
 
     }
 

@@ -6,6 +6,7 @@ public class Music {
     private String code;
     private String artist;
     private String label;
+    protected static int count = 0;
 
     public Music(){ //empty string
         price = "0.0";
@@ -13,6 +14,7 @@ public class Music {
         code = "";
         artist = "";
         label = "";
+        count++;
     }
 
     public double getPrice() {
